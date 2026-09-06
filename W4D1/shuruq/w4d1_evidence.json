@@ -1,0 +1,7 @@
+{
+  "student": "shuruq",
+  "date": "2026-09-06T12:29:22Z",
+  "pod_status": "Running",
+  "pod_image": "shuruqalthowaibi/aidc-serving:cpu-v1",
+  "verification": "PASS"
+}
