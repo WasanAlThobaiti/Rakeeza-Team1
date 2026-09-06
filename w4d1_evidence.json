@@ -1,1 +1,1 @@
-{"cluster": "aidc", "pod": "serving", "image": "wasanfaiz/aidc-serving:cpu-v1", "node": "aidc-t07", "chat_status": 200}
+{"cluster": "pod:aidc-t07", "namespace": "huraa", "pod": "serving", "image": "huraaai/aidc-serving:cpu-v2", "node": "aidc-t07", "chat_status": 200}
