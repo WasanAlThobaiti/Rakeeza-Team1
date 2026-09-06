@@ -1,0 +1,15 @@
+# The wk2 container, as a single pod. This file is given complete on day 1;
+# from tomorrow you write the YAML yourself.
+apiVersion: v1
+kind: Pod
+metadata:
+  name: serving
+spec:
+  containers:
+  - name: serving
+    image: wasanfaiz/aidc-serving:cpu-v1
+    ports:
+    - containerPort: 8002
+    env:
+    - name: MODEL_BACKEND
+      value: "echo"

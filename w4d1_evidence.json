@@ -1,0 +1,1 @@
+{"cluster": "aidc", "pod": "serving", "image": "wasanfaiz/aidc-serving:cpu-v1", "node": "aidc-t07", "chat_status": 200}
