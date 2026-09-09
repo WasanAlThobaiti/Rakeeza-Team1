@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: burner-unlimited
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: burner-unlimited
+  template:
+    metadata:
+      labels:
+        app: burner-unlimited
+    spec:
+      containers:
+      - command:
+        - python
+        - -c
+        - 'while True: pass'
+        image: reaam02/aidc-serving:cpu-v1
+        name: burner
